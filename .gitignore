@@ -1,0 +1,23 @@
+.git
+.env
+.DS_Store
+airflow_settings.yaml
+__pycache__/
+astro
+.venv
+
+# Airflow
+airflow-webserver.pid
+webserver_config.py
+airflow.cfg
+airflow.db
+
+# GCP Credentials
+include/.gcp/dtc-de-414207-84c3f1f197dd.json
+
+# Terraform
+terraform_gcp/terraform/.terraform.lock.hcl
+terraform_gcp/terraform/terraform.tfstate
+terraform_gcp/terraform/terraform.tfstate.backup
+terraform_gcp/terraform/.terraform/terraform.tfstate
+terraform_gcp/terraform/.terraform/providers/registry.terraform.io/hashicorp/google/5.6.0/linux_amd64/terraform-provider-google_v5.6.0_x5
