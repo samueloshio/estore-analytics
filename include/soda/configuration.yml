@@ -1,0 +1,15 @@
+data_source estore:
+  type: bigquery
+  connection:
+    account)info_json_path: /usr/local/airflow/include/.gcp/service_account.json
+    auth_scopes:
+     - https://www.googleapis.com/auth/bigquery
+     - https://www.googleapis.com/auth/cloud-platform
+     - https://www.googleapis.com/auth/drive
+    project_id: 'dtc-de-414207'
+    dataset: estore_schema  # Table in the BigQuery Dataset 
+
+soda_cloud:
+  host: cloud.us.soda.io
+  api_key_id: 116e629f-f3d8-4157-ad4c-1b1e144b68e0
+  api_key_secret: euU8xLNVVs8Zaix8P4Aly6NBFLCQvUFnoMcOY5O8f9yCk70g4jyjFg
