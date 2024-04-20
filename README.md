@@ -8,7 +8,7 @@ The goal of this project is to develop a data engineering pipeline to analyze an
 
 This project aims to develop a robust data engineering pipeline for analyzing and visualizing e-commerce data from an online store. Leveraging Apache Airflow for orchestration, dbt for data transformation, and Metabase for visualization, the pipeline ensures efficient data processing, quality assurance, and actionable insights generation
 
-## TEchnology Used
+## Technology Used
 
 The data engineering pipeline consists of the following stacks:
 
@@ -28,11 +28,13 @@ The project contain the following files and folders:
 
 - **dags:** This folder contains the Python files for the Airflow DAGs. By default.
 - **Dockerfile:** This file contains a versioned Astro Runtime Docker image that provides a differentiated Airflow experience. If you want to execute other commands or overrides at runtime, specify them here.
+- **docker-compose.override:** This file contains a Docker image for Metabase.
 - **include:** This folder contains any additional files that you want to include as part of your project. It is empty by default.
+- **terraform_gcp:** This folder contains terraform files used for setting up GCP infrastructures such as GCS and BigQuery.
 - **packages.txt:** Install OS-level packages needed for your project by adding them to this file. It is empty by default.
 - **requirements.txt:** Install Python packages needed for your project by adding them to this file. It is empty by default.
-- plugins: Add custom or community plugins for your project to this file. It is empty by default.
-- airflow_settings.yaml: Use this local-only file to specify Airflow Connections, Variables, and Pools instead of entering them in the Airflow UI as you develop DAGs in this project.
+- **plugins:** Add custom or community plugins for your project to this file. It is empty by default.
+- **airflow_settings.yaml:** Use this local-only file to specify Airflow Connections, Variables, and Pools instead of entering them in the Airflow UI as you develop DAGs in this project.
 
 ## Deploy the Project Locally
 
