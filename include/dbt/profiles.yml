@@ -1,0 +1,12 @@
+estore_profile:
+ target: dev
+ outputs:
+  dev:
+    type: bigquery
+    method: service-account
+    keyfile: /usr/local/airflow/include/.gcp/service_account.json
+    project: dtc-de-414207
+    dataset: estore_schema
+    threads: 1
+    timeout_seconds: 300
+    location: US

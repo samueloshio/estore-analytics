@@ -1,0 +1,10 @@
+
+version: 2
+
+sources:
+  - name: estore_schema
+    database: dtc-de-414207 # Put the project id!
+
+    tables:
+      - name: raw_invoices
+      - name: country

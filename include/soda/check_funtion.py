@@ -1,5 +1,5 @@
 # include/soda/check_function.py
-def check(scan_name, checks_subpath=None, data_source='estore', project_root='include'):
+def check(scan_name, checks_subpath=None, data_source='estore_schema', project_root='include'):
     from soda.scan import Scan
 
     print('Running Soda Scan ...')

@@ -1,0 +1,7 @@
+name: 'estore'
+
+profile: 'estore_profile' # As define in the profiles.yml
+
+models:
+  retail:
+    materialized: table
