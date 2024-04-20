@@ -78,10 +78,15 @@ Note: Running 'astro dev start' will start the project with the Airflow Webserve
 
 You should also be able to access your Postgres Database at 'localhost:5432/postgres'.
 
-# Deploy Your Project to Astronomer
+## Data Sources
+
+The e-commerce dataset used in this project contains information about customers, orders, products, and transactions. Sample data files are provided in the include/database/ directory.
+Check the [dataset on Kaggle](https://www.kaggle.com/datasets/tunguz/online-retail) For more details.
+
+## Deploy Your Project to Astronomer
 
 If you have an Astronomer account, pushing code to a Deployment on Astronomer is simple. For deploying instructions, refer to Astronomer documentation: https://docs.astronomer.io/cloud/deploy-code/
 
-# Contact
+## Contributing
 
-The Astronomer CLI is maintained with love by the Astronomer team. To report a bug or suggest a change, reach out to our support.
+Contributions are welcome! Feel free to submit pull requests or open issues for any improvements or bug fixes.
