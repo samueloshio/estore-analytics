@@ -93,14 +93,14 @@ def estore():
         return check(scan_name, checks_subpath)
 
     chain(
-        upload_csv_to_gcs
-        create_retail_dataset
-        gcs_to_raw
-        check_load()
-        transform
-        check_transform()
-        report
-        check_report()
+        upload_csv_to_gcs,
+        create_retail_dataset,
+        gcs_to_raw,
+        check_load(),
+        transform,
+        check_transform(),
+        report,
+        check_report(),
     )
 
 estore()
