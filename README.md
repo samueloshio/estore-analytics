@@ -80,6 +80,10 @@ Note: Running 'astro dev start' will start the project with the Airflow Webserve
 
 You should also be able to access your Postgres Database at 'localhost:5432/postgres'.
 
+## Dashboard
+
+![Dashboard](assets/Dashboard.png)
+
 ## Data Sources
 
 The e-commerce dataset used in this project contains information about customers, orders, products, and transactions. Sample data files are provided in the include/database/ directory.
