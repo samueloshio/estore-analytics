@@ -20,6 +20,10 @@ The data engineering pipeline consists of the following stacks:
 6. **Google Cloud Platform (GCP):** Cloud infrastructure provider for hosting the project.
 7. **Terraform:** Infrastructure as Code (IaC) tool for managing GCP resources, such as Google Cloud Storage (GCS) and BigQuery.
 
+## Data Pipeline
+
+![Data pipeline](assets/pipeline.png)
+
 ## Getting Started
 
 ### Project Contents
